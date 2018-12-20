@@ -1,6 +1,6 @@
 $(document).ready(function(){
-    $("#send").click(function(e){
-        e.preventDefault();
+
+   $("body").keyup(function(){
         var text=$("#text").val();
        $.ajax({
        	type: 'POST',
@@ -11,5 +11,5 @@ $(document).ready(function(){
           $("#otvet").append(res);
          },
         });
-    });
+  });
 });  

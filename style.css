@@ -22,15 +22,12 @@ header{
 	width: 980px;
 	margin: 0 auto;
 }
-form{
+
+textarea{
 	float: left;
 	width: 49%;
 	height: 100%;
-}
-textarea{
 	resize: none;
-	width: 100%;
-	height: 100%;
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	padding: 10px;
@@ -45,19 +42,15 @@ textarea{
 	background-color: #b7b7b7;
 	height: 100%;
 	padding: 10px;
+	overflow: auto;
 }
 .wraper{
 	height: 500px;
 }
-button {
-  background-color: #21a241;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  font-size: 16px;
-  margin: 20px auto;
-  width: 300px;
+ul{
+	margin: 20px;
+}
+li{
+	font-size: 16px;
+	margin: 10px;
 }
